@@ -5,7 +5,7 @@ import inquirer from "inquirer"
 
 const randomNumber = Math.floor(Math.random() * 5 + 1 );
 
-// console.log(randomNumber);
+console.log("Welcome to Number Guessing Game");
 
 const answers = await inquirer.prompt([
     {
@@ -21,3 +21,4 @@ if (answers.userGuessedNumber === randomNumber){
 else{
     console.log("you guesssed wrong number")
 }
+console.log("Created By Khurram");
